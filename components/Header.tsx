@@ -26,7 +26,7 @@ const Header = () => {
             <View style={styles.buttonsContainer}>
                 <TouchableOpacity>
                     <LinearGradient
-                        colors={['#f2d71a', '#ecb024']}
+                        colors={[Colors.yellow, Colors.gold]}
                         start={{ x: 0, y: 0 }}
                         end={{ x: 1, y: 0 }}
                         style={styles.demoButton}
@@ -36,11 +36,11 @@ const Header = () => {
                 </TouchableOpacity>
                 <View style={[styles.row, { backgroundColor: Colors.gold, padding: 1, borderRadius: 5 }]}>
                     <TouchableOpacity style={styles.loginButton}>
-                        {/* <Icon name="sign-in" size={16} color="#fff" /> */}
+                        {/* <AntDesign name="sign-in" size={16} color={Colors.white} /> */}
                         <Text style={styles.loginButtonText}>Login</Text>
                     </TouchableOpacity>
                     <TouchableOpacity style={styles.signupButton}>
-                        {/* <Icon name="user-plus" size={16} color="#000" /> */}
+                        {/* <Icon name="user-plus" size={16} color={Colors.white} /> */}
                         <Text style={styles.signupButtonText}>Signup</Text>
                     </TouchableOpacity>
                 </View>

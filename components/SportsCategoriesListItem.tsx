@@ -45,6 +45,7 @@ const styles = StyleSheet.create({
     },
     scrollContainer: {
         alignItems: 'center',
+        marginLeft: 20
     },
     image:{
         height: 20,

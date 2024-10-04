@@ -5,7 +5,7 @@ interface BannerProps {
     imageTwo: ImageSourcePropType;
 }
 
-const Banner: React.FC<BannerProps> = ({imageOne, imageTwo}) => {
+const SmallBanner: React.FC<BannerProps> = ({imageOne, imageTwo}) => {
     return (
         <View style={styles.row}>
             <Image source={imageOne} style={styles.image} />
@@ -28,4 +28,4 @@ const styles = StyleSheet.create({
     }
 });
 
-export default Banner;
+export default SmallBanner;
